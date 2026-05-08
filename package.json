@@ -1,0 +1,35 @@
+{
+  "name": "webinar-insights",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Webinar insights dashboard with MySQL storage",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "nodemon backend/server.js",
+    "server:start": "node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "html-to-image": "^1.11.13",
+    "lucide-react": "^0.379.0",
+    "mysql2": "^3.10.0",
+    "nodemon": "^3.1.0",
+    "papaparse": "^5.4.1",
+    "pptxgenjs": "^4.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.1"
+  }
+}
